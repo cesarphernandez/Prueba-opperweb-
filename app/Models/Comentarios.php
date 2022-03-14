@@ -12,5 +12,6 @@ class Comentarios extends Model
     protected $table = 'comentarios';
     //Campos a definir sin valor por defecto
     protected $fillable = ['contenido','post_id'];
+    //No creacion de timestamp automatico de las migraciones
     public $timestamps = false;
 }
